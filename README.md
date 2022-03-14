@@ -26,3 +26,5 @@
 
 
 #### Dit zijn de verdelingen."# BO-Dashboard" 
+
+[ons wireframe](Web 1920 – 1.pdf)
