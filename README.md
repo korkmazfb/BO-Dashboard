@@ -27,4 +27,4 @@
 
 #### Dit zijn de verdelingen."# BO-Dashboard" 
 
-[ons wireframe](Web 1920 – 1.pdf)
+[ons wireframe](https://github.com/korkmazfb/BO-Dashboard/blob/main/Web%201920%20%E2%80%93%201.pdf)
