@@ -51,7 +51,6 @@ nav>ul>.active {
 }
 
 
-
 .graphbox{
     position: relative;
     width: 100%;
@@ -64,7 +63,7 @@ nav>ul>.active {
 
 .graphbox .box{
     position: relative;
-    background: #fff;
+    background: gray;
     padding: 1.25rem;
     width: 100%;
     box-shadow: 0 0.4375rem 1.5625rem rgba(0, 0, 0, 0.08);
