@@ -18,7 +18,7 @@
 
 ### Mert Korkmaz
 #### 4.Het weerbericht (via een API) van vandaag.
-#### 3.Een grafische weergave van het gas verbruikde afgelopen weken.
+#### 2.Een grafische weergave van de het stroomverbruik de afgelopen weken huishouden1, huishouden 2, huishouden 3.huishoudens.
 #### 4.Rolgordijnen omhoog of omlaag als de zon opkomt of ondergaat of lichtintensiteit.
 
 ### Bilal el Koudadi
