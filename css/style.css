@@ -1,10 +1,9 @@
-* {
-    margin    : 0;
-    padding   : 0;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 
 }
-
 header {
     height    : 3.75rem;
     width     : 100%;
@@ -51,24 +50,22 @@ nav>ul>.active {
     background: limegreen;
 }
 
-
-
-.graphbox {
-    position             : relative;
-    width                : 100%;
-    padding              : 1.25rem;
-    display              : grid;
+.graphbox{
+    position: relative;
+    width: 100%;
+    padding: 1.25rem;
+    display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap             : 1.875rem;
-    min-height           : 12.5rem;
+    grid-gap: 1.875rem;
+    min-height: 12.5rem;
 }
 
-.graphbox .box {
-    position     : relative;
-    background   : #fff;
-    padding      : 1.25rem;
-    width        : 100%;
-    box-shadow   : 0 0.4375rem 1.5625rem rgba(0, 0, 0, 0.08);
+.graphbox .box{
+    position: relative;
+    background: gray;
+    padding: 1.25rem;
+    width: 100%;
+    box-shadow: 0 0.4375rem 1.5625rem rgba(0, 0, 0, 0.08);
     border-radius: 1.25rem;
 
 }

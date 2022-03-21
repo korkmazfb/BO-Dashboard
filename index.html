@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,46 @@
     <title>BO-Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <main>
-    <header id="top">
-        <nav>
-            <ul>
-                <img id="logo" src="/img/logo bedrijf.png" alt="logo">
-                <li class="active"><a href="index.html">Eco Home</a></li>
-                <li><a href="index.html">Datum</a></li>
-                <li><a href="index.html">Temperatuur</a></li>
-            </ul>
-        </nav>
-    </header>   
-<div class="graphbox">
-    <div class="box">
-            <canvas id="myChart"></canvas>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
-    </div>
-    <div class="box"></div>
-</div>
+        <header id="top">
+            <nav>
+                <ul>
+                    <li><img id="logo" src="/img/logo_bedrijf.png" alt="logo"></li>
+                    <li class="active"><a href="index.html">Eco Home</a></li>
+                    <li><a href="index.html">Datum</a></li>
+                    <li><a href="index.html">Temperatuur</a></li>
+                </ul>
+            </nav>
+        </header>
 
+        <main>
+            <div class="graphbox">
+                <div class="box">
+                    <h3>Elektrish Verbruik</h3>
+                    <canvas id="Bilals_Chart" width="100px" height="50px"></canvas>
+                </div>
 
+                <div class="box"></div>
+                <div class="box">
+                    <H3>Water Verbruik</H3>
+                    <canvas id="Halil_Chart"></canvas>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+                </div>
+                <div class="box">   
+            </div>
+        </main>
 
-    <footer>
-        <p>Gemaakt door Mert, Bilal, Halil</p>
-    </footer>
-    <script src="js/main.js"></script>
+        <footer>
+            <p>Gemaakt door Mert, Bilal, Halil</p>
+        </footer>
+        <script src="js/main.js"></script>
     </main>
+
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
