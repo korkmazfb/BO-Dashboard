@@ -65,7 +65,7 @@ var myChart = new Chart(cntxt, {
                 label: 'Water verbruik',
                 data: KWH,
                 backgroundColor: [
-                    "#3C6E2E",
+                    "#ff543c",
                     "#566E4F",
                 ],
                 borderColor: "black",
