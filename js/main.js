@@ -6,8 +6,7 @@
 
 var stars = [135, 152, 148, 169, 197];
 var frameworks = ['week1', 'week2', 'week3', 'week4', 'week5'];
-var ctx = document.getElementById('Bilals_Chart
-');
+var ctx = document.getElementById('Bilals_Chart');
 
 var myChart = new Chart(ctx, {
     type: 'pie',
