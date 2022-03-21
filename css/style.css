@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
 }
 header {
     height    : 3.75rem;
@@ -84,4 +85,6 @@ footer>p {
     width       : 60vw;
     margin      : 0 auto;
     padding-left: 5rem;
+=======
+>>>>>>> a98e8128e14c3b34f8fd64c8b2c99a741dbee0db
 }
