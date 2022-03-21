@@ -1,3 +1,6 @@
+
+# link naar de liveserver [http://32840.hosts1.ma-cloud.nl/BO-dashboard/] 
+
 ## Taakverdeling
 
 ### Groepje
@@ -27,4 +30,4 @@
 
 #### Dit zijn de verdelingen."# BO-Dashboard" 
 
-[ons wireframe](https://github.com/korkmazfb/BO-Dashboard/blob/main/Web%201920%20%E2%80%93%201.pdf)
+
