@@ -22,8 +22,8 @@ var myChart = new Chart(ctx, {
 })
 
 
-var KWH = [135, 152, 148, 169, 197];
-var week = ['week1', 'week2', 'week3', 'week4', 'week5'];
+var KWH = [4050, 3800, 4100, 3500, 4578, 4575, 3800];
+var week = ['week1', 'week2', 'week3', 'week4', 'week5', 'week6', 'week7'];
 var cntxt = document.getElementById('Bilals_Chart');
 
 var myChart = new Chart(cntxt, {
@@ -40,6 +40,8 @@ var myChart = new Chart(cntxt, {
                     "#ffb002",
                     "#ce8e00",
                     "#ac7600",
+                    "#df9900",
+                    "#ce8d00",
                 ],
                 borderColor: "black",
                 borderWidth: 1,
