@@ -8,7 +8,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: weken,
         datasets: [{
-            label: 'het aantal gasverbruik in de afgelopen weken',
+            label: 'elektriciteit per week in KWH',
             data: KW,
             backgroundColor: [
                 "#549fbc",
@@ -32,7 +32,7 @@ var myChart = new Chart(cntxt, {
         labels: week,
         datasets: [
             {
-                label: 'elektriciteit verbruik',
+                label: 'elektriciteit verbruik in KWH',
                 data: KWH,
                 backgroundColor: [
                     "#ffca57",
@@ -54,8 +54,8 @@ var myChart = new Chart(cntxt, {
 
 });
 
-var KWH = [135, 152];
-var week = ['Rood is voor mensen die veel verbruiken. ', 'Groen is voor mensen die besparen.',];
+var KWH = [11, 15, 13, 9, 15, 17, 10 ];
+var week = ['week1', 'week2', 'week3', 'week4', 'week5', 'week6', 'week7'];
 var cntxt = document.getElementById('Halil_Chart');
 
 var myChart = new Chart(cntxt, {
@@ -64,11 +64,16 @@ var myChart = new Chart(cntxt, {
         labels: week,
         datasets: [
             {
-                label: 'Water verbruik',
+                label: 'Water verbruik per week in liter',
                 data: KWH,
                 backgroundColor: [
-                    "#ff543c",
-                    "#566E4F",
+                    "#85b9cb",
+                    "#6dabc1",
+                    "#559db7",
+                    "#468ba4",
+                    "#418198",
+                    "#316375",
+                    "#224551",
                 ],
                 borderColor: "black",
                 borderWidth: 1,
