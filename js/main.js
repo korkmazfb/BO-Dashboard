@@ -1,5 +1,5 @@
 
-var KW = [5, 6, 8, 2, 6, 7, 2,];
+var KW = [3118, 3115, 3120, 3115, 3125, 3120, 3110,];
 var weken = ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7'];
 var ctx = document.getElementById('myChart');
 
