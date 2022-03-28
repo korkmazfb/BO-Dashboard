@@ -1,5 +1,5 @@
 
-# [link naar de liveserver van onze Dashboard](https://32840.hosts1.ma-cloud.nl/BO-dashboard/index.html)
+# [link naar de liveserver van onze Dashboard](https://32840.hosts1.ma-cloud.nl/BO-dashboard/)
 
 ## Taakverdeling
 
