@@ -14,7 +14,7 @@
 <header id="top">
     <nav>
         <ul>
-            <li><img id="logo" src="/img/logo_bedrijf.png" alt="logo" /></li>
+            <li><img id="logo" src="img/logo_bedrijf.png" alt="logo" /></li>
             <li class="active"><a href="index.html">Eco Home</a></li>
             <li id="datum"><a href="index.html">Datum</a></li>
             <li><a href="index.html">Temperatuur</a></li>
@@ -38,6 +38,21 @@
             <canvas id="Halil_Chart"></canvas>
         </div>
     </div>
+    <div id="dashboard">
+        <div id="weather" class="item">
+            <select id="city">
+                <option value="amsterdam">Amsterdam</option>
+                <option value="amstelveen">Amstelveen</option>
+            </select>
+            <div id="live">
+                <img src="img/loading.gif" alt="">
+                <h1>Hier komen gegevens</h1>
+                <h2></h2>
+                <p></p>
+                <h3></h3>
+            </div>
+        </div>
+    </div>
 </main>
 
 <footer>
@@ -45,6 +60,7 @@
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/weerlive.js"></script>
 
 
 </body>
