@@ -13,13 +13,13 @@
 ### Halil Dogan
 #### 5.De actuele buitentemperatuur (meten met een sensor en weergeven op het dashboard)
 #### 4.Een grafische weergave van het water verbruik de afgelopen weken.
-#### 3.De thermostaataan of uit gaat als de zon opkomt of ondergaat .
+#### 3.De thermostaataan aan of uit gaat als de zon opkomt of ondergaat .
 
 
 ### Mert Korkmaz
 #### 4.Het weerbericht (via een API) van vandaag.
 #### 2.Een grafische weergave van de het stroomverbruik de afgelopen weken huishouden1, huishouden 2, huishouden 3.huishoudens.
-#### 4.Rolgordijnen omhoog of omlaag als de zon opkomt of ondergaat of lichtintensiteit.
+#### 4.een lampje aan of uit gaat als er beweging is(het licht in de WC, devoorraadkast, de kelder, een klaslokaal gaat aan als er beweging is na bepaalde tijd gaat het automatisch uit)
 
 ### Bilal el Koudadi
 #### 6.De actuele binnentemperatuurin een ruimte: slaapkamer, klaslokaal, kantoor(meten met een sensor en weergeven op het dashboard). Meerdere ruimten mogelijk.
