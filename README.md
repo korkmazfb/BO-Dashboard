@@ -13,7 +13,7 @@
 ### Halil Dogan
 #### 5.De actuele buitentemperatuur (meten met een sensor en weergeven op het dashboard)
 #### 4.Een grafische weergave van het water verbruik de afgelopen weken.
-#### 3.De thermostaataan of uit gaat als de zon opkomt of ondergaat .
+#### 3.De thermostaataan aan of uit gaat als de zon opkomt of ondergaat .
 
 
 ### Mert Korkmaz
