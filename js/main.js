@@ -92,3 +92,6 @@ let cDate = current.getFullYear() + '-' + (current.getMonth() + 1) + '-' + curre
 let cTime = current.getHours() + ":" + current.getMinutes() + ":" + current.getSeconds();
 let dateTime = cDate + ' ' + cTime;
 console.log(dateTime);
+
+var datum = document.getElementById("tijd")
+datum.innerHTML = dateTime;
