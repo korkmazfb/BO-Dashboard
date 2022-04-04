@@ -14,39 +14,19 @@
         <ul>
             <li><img id="logo" src="img/logo_bedrijf.png" alt="logo" /></li>
             <li class="active">Eco Home</li>
-            <li id="time_span">Datum</li>
             <li id="tijd">Datum</li>
             <li>Temperatuur</li>
         </ul>
     </nav>
 </header>
+
 <main>
     <div class="graphbox">
-        <div class="box B-elek">
-
         <section class="box B-elek">
             <h3>Elektrish Verbruik</h3>
             <canvas id="Bilals_Chart" width="100" height="50"></canvas>
         </section>
 
-        <div class="box H-water">
-            <h3>Water Verbruik</h3>
-            <canvas id="Halil_Chart"></canvas>
-        </div>
-
-        <div class="box">
-            <div class="temp_wrapper">
-                <h3>Temperatuur Buiten</h3>
-                <canvas id="Halil_Chart_2"></canvas>
-            </div>
-        </div>
-
-        <div class="box M-elek">
-            <canvas id="myChart"></canvas>
-        </div>
-
-
-        <div id="dashboard" class="box M-weer">
         <section class="box M-elek">
             <canvas id="myChart"></canvas>
         </section>
@@ -59,7 +39,6 @@
 
 
         <section id="dashboard" class="box M-weer">
-
             <div id="weather" class="item">
                 <select id="city">
                     <option value="amsterdam">Amsterdam</option>
@@ -73,16 +52,12 @@
                     <h3></h3>
                 </div>
             </div>
-<<<<<<< HEAD
-        </div>
-    </div>
-=======
         </section>
 
         <section class="box B-calc">
             <h3></h3>
             <form>
-                <h5 id="output"></h5>
+                <h3 id="output"></h3>
                 
                 Value 1: <input type="text" id="value1" autocomplete="off">
                 <br>
@@ -105,34 +80,12 @@
         </section>
 </main>
 
-
-
-    <article id="sunrise" class="Zonsondergang">
-        <p id='location1'></p>
-        <p id='weather1'></p>
-        <p id="weather1"> 🌄 Zonsopgang:</p>
-        <p id='temp1'></p>
-        <p id='sunrise1'></p>
-        <p id="weather1">🌇 Zonsondergang:</p>
-    </article>
-
-
-
-        <div class="ah" id="dataDiv">
-            <canvas id="myChart"></canvas>
-        </div>
-    </div>
-</main>
 <footer>
     <p>Gemaakt door Mert, Bilal, Halil</p>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/weerlive.js"></script>
-<script src="js/zons.js"></script>
-<script src="js/temp.js"></script>
-<script src="js/zons.json"></script>
-
 
 
 </body>

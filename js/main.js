@@ -86,57 +86,6 @@ var myChart = new Chart(cntxt, {
 
 });
 
-var KW = [11, 12, 12, 9, 9, 9, 11, 14, 11,];
-var week = ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7'];
-var ctx = document.getElementById('Halil_Chart_2');
-
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: week,
-        datasets: [{
-            label: 'Buiten Temperatuur in graden celsuis',
-            data: KW,
-            backgroundColor: [
-                "rgba(255, 99, 132, 0.2)",
-                "rgba(54, 162, 235, 0.2)",
-                "rgba(255, 206, 86, 0.2)",
-                "rgba(75, 192, 192, 0.2)",
-                "rgba(153, 102, 255, 0.2)" ],
-                borderColor: [
-                "rgba(255, 99, 132, 1)",
-                "rgba(54, 162, 235, 1)",
-                "rgba(255, 206, 86, 1)",
-                "rgba(75, 192, 192, 1)",
-                "rgba(153, 102, 255, 1)",
-                ],
-            borderwidth: 1,
-            fill: false,
-            lineTension: 0,
-            borderRadius: 5
-            
-            
-        }]
-    }
-});
-
-
-var currentTime = new Date()
-var hours = currentTime.getHours()
-var minutes = currentTime.getMinutes()
-var seconds = currentTime.getSeconds()
-if (minutes < 10) {
-    minutes = "0" + minutes
-}
-var t_str = hours + ":" + minutes + ":" + seconds;
-if (hours > 11) {
-    t_str += "UUR";
-} else {
-    t_str += "UUR";
-}
-document.getElementById('time_span').innerHTML = t_str;
-datum.innerHTML = dateTime;
-
 
 
 let current = new Date();
@@ -163,15 +112,15 @@ function calc() {
 
     if (op.value == "elec") {
         calculate = a * 0.15 + b * 0.15 + c * 0.15;
-        output.innerHTML = "in kilowatt"
+        output.innerHTML = "In kilowatt per uur!"
     }
     else if (op.value == "Water") {
         calculate = a * 0.87 + b * 0.87 + c * 0.87;
-        output.innerHTML = "in kubike Liter"
+        output.innerHTML = "In kubike Liter!"
     }
     else if (op.value == "Gas") {
         calculate = a * 2.66 + b * 2.66 + c * 2.66;
-        output.innerHTML = "in Kubike Liter"
+        output.innerHTML = "In Kubike Liter!"
     }
     if (calculate) { 
         document.querySelector("#totaal").innerHTML = ("Dat gaat " + calculate + " euro kosten.");
