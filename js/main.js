@@ -138,3 +138,40 @@ document.getElementById('time_span').innerHTML = t_str;
 datum.innerHTML = dateTime;
 
 
+
+let current = new Date();
+let cDate = current.getFullYear() + '-' + (current.getMonth() + 1) + '-' + current.getDate();
+let cTime = current.getHours() + ":" + current.getMinutes() + ":" + current.getSeconds();
+let dateTime = cDate + ' ' + cTime;
+console.log(dateTime);
+
+var datum = document.getElementById("tijd")
+datum.innerHTML = dateTime;
+
+
+
+function calc(){
+    var a = parseInt(document.querySelector("#value1").value);
+    var b = parseInt(document.querySelector("#value2").value);
+    var c = parseInt(document.querySelector("#value3").value);
+    var op = document.querySelector("#operator").value;
+
+    var calculate;
+
+    if (op == "elec") {
+        calculate = a * 0.15 + b * 0.15 + c * 0.15;
+        
+    }
+    else if (op == "Water") {
+        calculate = a * 0.87 + b * 0.87 + c * 0.87;
+    }
+    else if (op == "Gas") {
+        calculate = a * 2.66 + b * 2.66 + c * 2.66;
+    }
+    document.querySelector("#totaal").innerHTML = ("Dat gaat " + calculate + " euro kosten");
+}
+
+function changeSelect() {
+    console.log("verander dingen");
+}
+
