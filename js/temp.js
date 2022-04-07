@@ -29,7 +29,9 @@ async function renderData() {
     dataDiv.innerHTML = `<h3>Datum: ${datum.toLocaleString()}</h3><p>Sensor: ${measurement.sensor} 
             </p><p>Temperature: ${measurement.value1}
             </p><p> Humidity: ${measurement.value2}  
-            </p><p> Heatindex: ${measurement.value3}</p>`;
+            </p><p> Heatindex: ${measurement.value3}</p>`
+            
+            
 }
 
 renderData(); // start immediately

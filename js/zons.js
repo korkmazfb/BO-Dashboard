@@ -25,3 +25,4 @@ fetch(URL)
         datum = new Date(milliSecondsSindsEpoch);
         console.log(datum.toLocaleString());
     });
+
