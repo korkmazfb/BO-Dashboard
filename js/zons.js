@@ -26,4 +26,3 @@ fetch(URL)
         console.log(datum.toLocaleString());
     });
 
-    

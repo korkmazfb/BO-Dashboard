@@ -14,8 +14,9 @@
         <ul>
             <li><img id="logo" src="img/logo_bedrijf.png" alt="logo" /></li>
             <li class="active">Eco Home</li>
-            <li id="tijd">Datum</li>
+            <li id="time_span">Datum</li>
             <li>Temperatuur</li>
+            <li><a href="index_2.html">Login</a></li>
         </ul>
     </nav>
 </header>
@@ -36,6 +37,7 @@
             <h3>Water Verbruik</h3>
             <canvas id="Halil_Chart"></canvas>
         </section>
+        
 
 
         <section id="dashboard" class="box M-weer">
@@ -58,7 +60,7 @@
             <h3></h3>
             <form>
                 <h3 id="output"></h3>
-                
+
                 Value 1: <input type="text" id="value1" autocomplete="off">
                 <br>
                 Value 2: <input type="text" id="value2" autocomplete="off">
@@ -66,18 +68,51 @@
                 Value 3: <input type="text" id="value3" autocomplete="off">
                 Wat wil je berekenen:
 
-            <select id="operator"  >
-                <option value=""></option>
-                <option value="elec">Elektriciteit</option>
-                <option value="Gas">Gas</option>
-                <option value="Water">water</option>
-                
-            </select>
-            <button type="button" onclick="calc()">Calculate</button>
-            <div id="totaal"><p></p></div>
+                <select id="operator">
+                    <option value=""></option>
+                    <option value="elec">Elektriciteit</option>
+                    <option value="Gas">Gas</option>
+                    <option value="Water">water</option>
+
+                </select>
+                <button type="button" onclick="calc()">Calculate</button>
+                <div id="totaal">
+                    <p></p>
+                </div>
             </form>
-            
+
+
+
+        
+    </div>
+    <div class="halil">
+
+    
+    <article id="sunrise" class="Zonsondergang">
+        <p id='location1'></p>
+        <p id='weather1'></p>
+        <p id="weather1"> 🌄 Zonsopgang:</p>
+        <p id='temp1'></p>
+        <p id='sunrise1'></p>
+        <p id="weather1">🌇 Zonsondergang:</p>
+        </article>
+
+
+        <section class="ah">
+            <h3>*Slaapkamer</h3>
+            <div id="dataDiv">
+            </div>
         </section>
+
+        <section class="ah-M">
+            <div id="data-M">
+                <h3>Datum: 7-4-2022 11:00:39</h3><p>Sensor: DHT11 + LDR 
+                    </p><p>Temperature: 27.7
+                    </p><p> Humidity: 29
+                    </p><p> Lichthoeveelheid in de garage van mert:  535 het licht is nu aan </p> </div>
+        </section>x
+
+    </div>
 </main>
 
 <footer>
@@ -86,6 +121,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/weerlive.js"></script>
+<script src="js/temp-m.js"></script>
+<script src="js/zons.js"></script>
+<script src="js/weer.json"></script>
+<script src="js/zons.json"></script>
+
+
 
 
 </body>
