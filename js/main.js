@@ -100,7 +100,7 @@ datum.innerHTML = dateTime;
 
 var op = document.querySelector("#operator");
 var output = document.getElementById('output');
-op.addEventListener('change', calc);
+    op.addEventListener('change', calc);
 
 function calc() {
     var a = parseInt(document.querySelector("#value1").value);
@@ -125,7 +125,7 @@ function calc() {
     if (calculate) { 
         document.querySelector("#totaal").innerHTML = ("Dat gaat " + calculate + " euro kosten.");
     }
-    else{
+    else if(isNaN(calculate)){
         document.querySelector("#totaal").innerHTML = ("Vul wat in!");
     }
 }
