@@ -317,7 +317,6 @@ input[type=button] {
     margin-bottom  : 1.25rem;
 }
 
-<<<<<<< HEAD
 .ah-M{
     background     : #ffffff;
     padding        : 1.25rem;
@@ -331,9 +330,6 @@ input[type=button] {
     align-items    : center;
     margin-bottom  : 1.25rem;  
 }
-=======
-
->>>>>>> 30712d61c565e91f6685da50baf3de05fe9c359e
 
 @media screen and (max-width: 87.5rem) {}
 
