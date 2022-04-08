@@ -36,6 +36,7 @@ async function renderData() {
     }
     // De meting gegevens wegschrijven naar de div                 
     dataDiv.innerHTML = `<h3>Datum: ${datum.toLocaleString()}</h3><p>Sensor: ${measurement.sensor} 
+<<<<<<< HEAD:js/temp-m.js
                     </p><p>Temperature: ${measurement.value1}
                     </p><p> Humidity: ${measurement.value2}
                     </p><p> Lichthoeveelheid in de garage van mert:  ${measurement.value3} het licht is nu ${lichtStatus} </p> `;
@@ -44,6 +45,13 @@ async function renderData() {
     </p><p>Temperature: ${measurement.value1}
     </p><p> Humidity: ${measurement.value2}
     </p> `;
+=======
+            </p><p>Temperature: ${measurement.value1}
+            </p><p> Humidity: ${measurement.value2}  
+            </p><p> Heatindex: ${measurement.value3}</p>`
+            
+            
+>>>>>>> 30712d61c565e91f6685da50baf3de05fe9c359e:js/temp.js
 }
 
 renderData(); // start immediately
