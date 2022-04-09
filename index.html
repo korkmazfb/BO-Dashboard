@@ -21,98 +21,114 @@
     </nav>
 </header>
 
-<main>
-    <div class="graphbox">
-        <section class="box B-elek">
-            <h3>Elektrish Verbruik</h3>
-            <canvas id="Bilals_Chart" width="100" height="50"></canvas>
-        </section>
+<main class="graphbox">
 
-        <section class="box M-elek">
-            <canvas id="myChart"></canvas>
-        </section>
+    <section class="box B-elek">
+        <h3>Elektrish Verbruik</h3>
+        <canvas id="Bilals_Chart" width="100" height="50"></canvas>
+    </section>
 
-
-        <section class="box H-water">
-            <h3>Water Verbruik</h3>
-            <canvas id="Halil_Chart"></canvas>
-        </section>
-        
+    <section class="box M-elek">
+        <canvas id="myChart"></canvas>
+    </section>
 
 
-        <section id="dashboard" class="box M-weer">
-            <div id="weather" class="item">
-                <select id="city">
-                    <option value="amsterdam">Amsterdam</option>
-                    <option value="amstelveen">Amstelveen</option>
-                </select>
-                <div id="live">
-                    <img src="img/loading.gif" alt="">
-                    <h1>Hier komen gegevens</h1>
-                    <h2></h2>
-                    <p></p>
-                    <h3></h3>
-                </div>
+    <section class="box H-water">
+        <h3>Water Verbruik</h3>
+        <canvas id="Halil_Chart"></canvas>
+    </section>
+
+
+
+    <section id="dashboard" class="box M-weer">
+        <div id="weather" class="item">
+            <select id="city">
+                <option value="amsterdam">Amsterdam</option>
+                <option value="amstelveen">Amstelveen</option>
+            </select>
+            <div id="live">
+                <img src="img/loading.gif" alt="">
+                <h1>Hier komen gegevens</h1>
+                <h2></h2>
+                <p></p>
+                <h3></h3>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="box B-calc">
-            <h3></h3>
-            <form>
-                <h3 id="output"></h3>
+    <section class="box B-calc">
+        <h3></h3>
+        <form>
+            <h3 id="output"></h3>
 
-                Value 1: <input type="text" id="value1" autocomplete="off">
-                <br>
-                Value 2: <input type="text" id="value2" autocomplete="off">
-                <br>
-                Value 3: <input type="text" id="value3" autocomplete="off">
-                Wat wil je berekenen:
+            Value 1: <input type="text" id="value1" autocomplete="off">
+            <br>
+            Value 2: <input type="text" id="value2" autocomplete="off">
+            <br>
+            Value 3: <input type="text" id="value3" autocomplete="off">
+            Wat wil je berekenen:
 
-                <select id="operator">
-                    <option value=""></option>
-                    <option value="elec">Elektriciteit</option>
-                    <option value="Gas">Gas</option>
-                    <option value="Water">water</option>
+            <select id="operator">
+                <option value=""></option>
+                <option value="elec">Elektriciteit</option>
+                <option value="Gas">Gas</option>
+                <option value="Water">water</option>
 
-                </select>
-                <button type="button" onclick="calc()">Calculate</button>
-                <div id="totaal">
-                    <p></p>
-                </div>
-            </form>
-
-
-
-        
-    </div>
-    <div class="halil">
-
+            </select>
+            <button type="button" onclick="calc()">Calculate</button>
+            <div id="totaal">
+                <p></p>
+            </div>
+        </form>
+    </section>
     
-    <article id="sunrise" class="Zonsondergang">
+    <section class="box ah-M">
+        <h3>*Garage</h3>
+        <div id="data-M">
+            <h3>Datum: 7-4-2022 11:00:39</h3>
+            <p>Sensor: DHT11 + LDR
+            </p>
+            <p>Temperature: 27.7
+            </p>
+            <p> Humidity: 29
+            </p>
+            <p> Lichthoeveelheid in de garage van mert: 535 het licht is nu aan </p>
+        </div>
+    </section>
+
+    <section class="box ah-B">
+        <h3>Kuiken</h3>
+        <div id="data-M">
+            <h3>Datum: 7-4-2022 11:00:39</h3>
+            <p>Sensor: DHT11 + LDR
+            </p>
+            <p>Temperature: 27.7
+            </p>
+            <p> Humidity: 29
+            </p>
+            <p> Lichthoeveelheid in de kuiken van Bilal: 400 het licht is nu aan </p>
+        </div>
+    </section>
+
+    <section id="sunrise" class="Zonsondergang box" >
         <p id='location1'></p>
         <p id='weather1'></p>
         <p id="weather1"> 🌄 Zonsopgang:</p>
         <p id='temp1'></p>
         <p id='sunrise1'></p>
         <p id="weather1">🌇 Zonsondergang:</p>
-        </article>
+    </section>
+
+    
+    <section class="box ah">
+        <h3>*Slaapkamer</h3>
+        <div id="dataDiv">
+        </div>
+    </section>
 
 
-        <section class="ah">
-            <h3>*Slaapkamer</h3>
-            <div id="dataDiv">
-            </div>
-        </section>
+ 
 
-        <section class="ah-M">
-            <div id="data-M">
-                <h3>Datum: 7-4-2022 11:00:39</h3><p>Sensor: DHT11 + LDR 
-                    </p><p>Temperature: 27.7
-                    </p><p> Humidity: 29
-                    </p><p> Lichthoeveelheid in de garage van mert:  535 het licht is nu aan </p> </div>
-        </section>x
-
-    </div>
 </main>
 
 <footer>
@@ -125,6 +141,7 @@
 <script src="js/zons.js"></script>
 <script src="js/weer.json"></script>
 <script src="js/zons.json"></script>
+<script src="js/calc.js"></script>
 
 
 
@@ -132,3 +149,4 @@
 </body>
 
 </html>
+
