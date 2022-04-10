@@ -99,6 +99,14 @@ nav>ul>li>a {
     flex-direction: column;
 }
 
+.VMBO{
+    grid-column: 3/5;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 a{
