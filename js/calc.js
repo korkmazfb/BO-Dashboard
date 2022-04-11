@@ -23,7 +23,8 @@ function calc() {
         output.innerHTML = "In Kubike Liter!"
     }
     if (calculate) { 
-        document.querySelector("#totaal").innerHTML = ("Dat gaat " + calculate + " euro kosten.");
+        calculate = Math.round(calculate * 100) / 100;
+        document.querySelector("#totaal").innerHTML = ("Dat gaat " + calculate.toLocaleString() + " euro kosten.");
     }
     else if(isNaN(calculate)){
         document.querySelector("#totaal").innerHTML = ("Vul wat in!");

@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background:linear-gradient(27.5deg, #A7D129 50%, #616F39 50%);
 }
 
 header {
@@ -51,24 +52,34 @@ nav>ul>li>a {
 
 }
 
+#ct{
+    color: white;
+}
+
+
 
 .graphbox {
-
-    width: 97.5%;
+    max-width: 97.5%;
     padding: 1.25rem;
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(4);
     grid-gap: 1rem;
     min-height: 12.5rem;
+    padding-right: 2.25rem;
+    
 }
 
 .box {
 
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     background: rgba(255, 255, 255, 0.9);
     box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.2);
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .B-elek {
@@ -90,6 +101,10 @@ nav>ul>li>a {
 .M-weer {
     grid-column: 3/4;
     grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .B-calc{
@@ -101,7 +116,6 @@ nav>ul>li>a {
 
 .VMBO{
     grid-column: 3/5;
- 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,13 +159,12 @@ footer {
 }
 
 .item {
-    background: #ffffff;
+
     padding: 20px;
     min-height: 300px;
     border-radius: 10px;
-    box-shadow: 2px 3px 5px #bbbbbb;
     border: 1px solid #4c8aff;
-    width: 175%;
+    width: 100%;
 }
 
 #weather {
@@ -159,6 +172,9 @@ footer {
     display: flex;
     flex-direction: column;
     width: 135%;
+    border-color: white;
+    border-style: none;
+    
 }
 
 #live {
@@ -200,3 +216,10 @@ select {
 
 }
 
+#data-M{
+    text-align: start;
+    width: 80%;
+    display: flex;
+
+    flex-direction: column;
+}

@@ -13,8 +13,9 @@
     <nav>
         <ul>
             <li><img id="logo" src="img/logo_bedrijf.png" alt="logo" /></li>
-            <li class="active">Eco Home</li>
-            <li id="time_span">Datum</li>
+            <li >Eco Home</li>
+            <body onload=display_ct();>
+                <span id='ct' ></span>
             <li>Temperatuur</li>
             <li><a href="index_2.html">Login</a></li>
         </ul>
@@ -83,9 +84,11 @@
     </section>
     
     <section class="box ah-M">
-        <h3>*Garage</h3>
+        <h3>garage</h3>
+        <br>
         <div id="data-M">
-            <h3>Datum: 7-4-2022 11:00:39</h3>
+            
+            <h4>Datum: 7-4-2022 11:00:39</h4>
             <p>Sensor: DHT11 + LDR
             </p>
             <p>Temperature: 27.7
@@ -97,16 +100,18 @@
     </section>
 
     <section class="box ah-B">
-        <h3>Kuiken</h3>
+        <h3>Keuken</h3>
+        <br>
         <div id="data-M">
-            <h3>Datum: 7-4-2022 11:00:39</h3>
+            
+            <h4>Datum: 7-4-2022 11:00:39</h4>
             <p>Sensor: DHT11 + LDR
             </p>
             <p>Temperature: 27.7
             </p>
             <p> Humidity: 29
             </p>
-            <p> Lichthoeveelheid in de kuiken van Bilal: 400 het licht is nu aan </p>
+            <p> Lichthoeveelheid in de keuken van Bilal: 400 het licht is nu aan </p>
         </div>
     </section>
 
@@ -121,7 +126,7 @@
 
     
     <section class="box ah">
-        <h3>*Slaapkamer</h3>
+        <h3>Slaapkamer</h3>
         <div id="dataDiv">
         </div>
     </section>
@@ -146,6 +151,7 @@
 <script src="js/weer.json"></script>
 <script src="js/zons.json"></script>
 <script src="js/calc.js"></script>
+<script src="js/tijd.js"></script>
 
 
 
